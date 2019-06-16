@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProductViewComponent implements OnInit {
 
 @Input()
-productName: string;
+productname = '';
 
 
   constructor() { }
